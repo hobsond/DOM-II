@@ -165,13 +165,11 @@ img {
 }
 body {
   background-color: #fdd9d5;
-  transition: background ease-in-out 0.7s;
 }
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 @media (max-width: 500px) {
   .container {
@@ -191,7 +189,6 @@ body {
   background: salmon;
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
-  z-index: 2;
 }
 .main-navigation .nav-container {
   height: 100%;
@@ -362,72 +359,4 @@ body {
 .home .content-pick .destination .btn:hover {
   background: white;
   color: #17A2B8;
-}
-.home .box-container {
-  display: flex;
-}
-.home .box-container .box {
-  width: 60px;
-  height: 3px;
-  margin: 0 5px;
-}
-.home .box-container #box1 {
-  background-color: orchid;
-}
-.home .box-container #box2 {
-  background-color: seagreen;
-}
-.home .box-container #box3 {
-  background-color: springgreen;
-}
-.home .destChoice {
-  font-size: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.home .destChoice .destOpt {
-  width: 20%;
-  cursor: pointer;
-  transition: opacity 1s ease-in-out;
-}
-.home .destDrop {
-  height: 30vh;
-  background-color: black;
-}
-.popup {
-  position: fixed;
-  z-index: 1;
-  background-color: orchid;
-  width: 500px;
-  height: fit-content;
-  left: 35%;
-  bottom: 25%;
-  top: 22%;
-  box-shadow: 0vh 0 25vh black;
-  border-radius: 2rem;
-}
-.popup h3 {
-  font-size: 3rem;
-  text-align: center;
-}
-.popup .btnlist {
-  margin: 4% auto;
-  left: 12%;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.popup button {
-  height: 4rem;
-  width: 90%;
-  margin-top: 4px;
-}
-@media (max-width: 500px) {
-  .popup {
-    right: 7%;
-    width: 50%;
-  }
 }

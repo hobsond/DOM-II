@@ -38,14 +38,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+body{
+  background-color: lighten(salmon,20%);
+  transition: background ease-in-out .7s;
+}
 
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
 
   @media @mobile {
     width: 90%;
     margin: 0 5%;
   }
+}
+
+.dontshow{
+  display: none;
+}
+.center{
+  text-align: center;
 }

@@ -111,4 +111,41 @@
       }
     }
   }
+
+  .box-container{
+    display: flex;
+    .box{
+      width: 60px;
+      height: 3px;
+      margin: 0 5px;
+    }
+    #box1{
+      background-color: orchid;
+    }
+    #box2{
+      background-color: seagreen;
+    }
+    #box3{
+      background-color: springgreen;
+    }
+  }
+
+
+  .destChoice{
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .destOpt{
+      width: 20%;
+      cursor: pointer;
+      transition: opacity 1s ease-in-out;
+    }
+    
+  }
+  .destDrop{
+    height: 30vh;
+    background-color: black;
+  }
 }// home
